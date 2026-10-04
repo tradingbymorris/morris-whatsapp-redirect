@@ -1,0 +1,14 @@
+{
+  "name": "morris-whatsapp-redirect",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node tools/sync.mjs",
+    "check": "node --check script.js && node --check config.js",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "start": "node tools/serve.mjs"
+  },
+  "devDependencies": { "playwright": "1.58.2" }
+}
